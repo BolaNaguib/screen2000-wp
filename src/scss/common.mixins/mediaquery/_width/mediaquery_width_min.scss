@@ -1,0 +1,15 @@
+/*
+* Mediaquery Width Min
+* Mediaquery defining the minimum width
+*/
+
+@mixin mediaquery_width_min($width_min) {
+   @media (min-width: $width_min+'px') {
+       @content;
+   }
+}
+
+
+
+// Usage:
+// @include mediaquery_width_min(1600) {}

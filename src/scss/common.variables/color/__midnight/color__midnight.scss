@@ -1,0 +1,36 @@
+/*
+* Color Midnight
+* Neutral color shades
+*/
+
+$color__midnight: #1c1f2a;
+
+$color__midnight_1: #0d0f14;
+
+$color__midnight_2: #1c1f2a;
+
+$color__midnight_3: #2c2f39;
+
+$color__midnight_4: #3c3f49;
+
+$color__midnight_5: #5d6068;
+
+$color__midnight_6: #7f8188;
+
+$color__midnight_7: #949596;
+
+$color__midnight_8: #c0c2c6;
+
+$color__midnight_9: #e1e2e5;
+
+$color__midnight_10: #e6e8ea;
+
+$color__midnight_11: #eff0f2;
+
+$color__midnight_12: #f6f7f8;
+
+$gradient__midnight: linear-gradient(to top, #0d0f14, rgba(13, 15, 20, 0.5));
+
+$color__midnight_list_dark: $color__midnight_1 $color__midnight_2 $color__midnight_3 $color__midnight_4 $color__midnight_5 $color__midnight_6 $color__midnight_7;
+
+$color__midnight_list_light: $color__midnight_8 $color__midnight_9 $color__midnight_10 $color__midnight_11 $color__midnight_12;

@@ -1,0 +1,13 @@
+/*
+* Mediaquery Width Max
+* Mediaquery defining the maximum width
+*/
+
+@mixin mediaquery_width_max($width_max) {
+   @media (max-width: $width_max+'px') {
+       @content;
+   }
+}
+
+// Usage:
+// @include mediaquery_width_max(800) {}

@@ -1,0 +1,85 @@
+// Apply font-smoothing for more clearly rendered fonts
+
+
+html {
+  color: #1c1f2a;
+  font-family: 'Poppins', sans-serif;
+}
+
+*,
+button,
+input {
+  font-smoothing: antialised;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  color: inherit;
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+::-moz-selection {
+  color: $color__sunflower;
+  background: $color__midnight;
+}
+
+::selection {
+  color: $color__sunflower;
+  background: $color__midnight;
+}
+
+html {
+  font-size: $font_size_root_px;
+}
+
+// Set default header values
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.325;
+  letter-spacing: -0.0125em;
+  color: inherit;
+}
+
+h1 {
+  font-weight: 800;
+  line-height: 1.17;
+  @include font-size(em(48) * 0.8, em(48));
+}
+
+h2 {
+  @include font-size(em(32) * 0.8, em(32));
+}
+
+h3 {
+  @include font-size(em(24) * 0.8, em(24));
+}
+
+h4 {
+  @include font-size(em(21) * 0.8, em(21));
+}
+
+h5 {
+  @include font-size(em(18) * 0.8, em(18));
+}
+
+h6 {
+  @include font-size(em(16) * 0.8, em(16));
+}
+
+a {
+  color: $color__sunflower !important;
+
+  &:hover {
+    color: $color__sunflower_2 !important;
+  }
+}

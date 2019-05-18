@@ -1,0 +1,13 @@
+/*
+* Mediaquery Size L
+* Mediaquery for large screens
+*/
+
+@mixin mediaquery_size_l() {
+   @media (min-width: $dimension_size_l+'px') {
+       @content;
+   }
+}
+
+// Usage:
+// @include mediaquery_size_l {}

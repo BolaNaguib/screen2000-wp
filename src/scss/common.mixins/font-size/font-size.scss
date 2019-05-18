@@ -1,0 +1,9 @@
+@mixin font-size($n, $s: null) {
+  font-size: $n;
+
+  @if ($s) {
+    @include mediaquery_size_s(){
+      font-size: $s;
+    }
+  }
+}

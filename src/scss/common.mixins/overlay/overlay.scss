@@ -1,0 +1,45 @@
+/*
+* Overlay
+* Mixin to create background overlays
+*/
+
+@mixin gradient($overlay_background_color,$overlay_opacity:1, $overlay_z_index: 0) {
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    bottom: 0;
+    background-image: $overlay_background_color;
+    z-index: $overlay_z_index;
+    opacity: $overlay_opacity;
+  }
+}
+
+
+@mixin overlay($overlay_background_color,$overlay_opacity:1, $overlay_z_index: 0) {
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    right: 0;
+    bottom: 0;
+    background: $overlay_background_color;
+    z-index: $overlay_z_index;
+    opacity: $overlay_opacity;
+  }
+}
+
+@mixin box-shadow($box-shadow-color) {
+  box-shadow: 8px 8px 0 0 $box-shadow-color;
+  border-radius: 5px;
+}
+
+
+
+// Usage:
+// @include overlay($color_sunflower);

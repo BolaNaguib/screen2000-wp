@@ -1,0 +1,13 @@
+/*
+* Mediaquery Size XS
+* Mediaquery for extra small screens
+*/
+
+@mixin mediaquery_size_xs() {
+   @media (min-width: $dimension_size_xs+'px') {
+       @content;
+   }
+}
+
+// Usage:
+// @include mediaquery_size_xs {}
