@@ -65,7 +65,7 @@ if( function_exists('acf_add_options_page') ) {
 			$item_output = '<div class="dropdown-divider"></div>';
 		} else {
 			if ($depth == 0) {
-				$class_names = 'nav__link'; // Primary navbar class
+				$class_names = 'navbar_main_link  uk-button-text'; // Primary navbar class
 				if ($has_children) $class_names .= ' dropdown-toggle';
 			} else {
 				$class_names = ' nav__link uk-display-block';
