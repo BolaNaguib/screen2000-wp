@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<base href="<?php echo get_home_url(); ?>" target="_blank">
 <title> <?php the_title(); ?> </title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
