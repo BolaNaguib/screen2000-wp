@@ -35,7 +35,7 @@
 
       <!-- START .uk-navbar-left -->
       <div class="uk-navbar-left">
-        <a href="/">
+        <a href="<?php echo get_home_url(); ?>">
           <img width="100px" src="<?php the_field('logo', 'option') ?>" alt="Screen2000">
         </a>
       </div> <!-- END .uk-navbar-left -->

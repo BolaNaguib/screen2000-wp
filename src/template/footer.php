@@ -27,7 +27,7 @@ if( have_rows('block_data') ):
 while ( have_rows('block_data') ) : the_row();
 ?>
 
-<li><a class="footer_link" href="<?php the_sub_field('link_url'); ?>"> <?php the_sub_field('link_title'); ?> </a></li>
+<li><a class="footer_link" href="<?php echo get_home_url(); ?>/<?php the_sub_field('link_url'); ?>"> <?php the_sub_field('link_title'); ?> </a></li>
 
 
 
